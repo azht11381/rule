@@ -12,6 +12,15 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 直连
+  Airport1:
+    url: "机场订阅2"
+    type: http
+    interval: 86400
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+    proxy: 直连
     #override:
       #additional-prefix: "前缀 |"
       #additional-suffix: "| 后缀"
